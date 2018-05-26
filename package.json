@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-implementation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sai1996/bootstrap-implementation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sai1996/bootstrap-implementation/issues"
+  },
+  "homepage": "https://github.com/Sai1996/bootstrap-implementation#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "node-sass": "^4.9.0"
+  }
+}
