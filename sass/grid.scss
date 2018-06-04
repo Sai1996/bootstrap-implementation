@@ -9,7 +9,7 @@ $screen-md-min: 992px;
 $screen-md-max: 1200px;
 $screen-lg-min: 1200px;
 $screen-lg-max: 1600px;
-$map: ( $xs: $screen-xs-min, $sm: $screen-sm-min, $md: $screen-md-min, $lg: $screen-lg-min);
+$map: ( xs: $screen-xs-min, sm: $screen-sm-min, md: $screen-md-min, lg: $screen-lg-min);
 .container {
   padding-right: 15px;
   padding-left: 15px;
