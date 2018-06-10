@@ -1,0 +1,180 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="page-header">
+      <h1>Bootstrap form examples</h1>
+      <p class="lead">Basic form layouts to get you familiar with building within the Bootstrap form system.</p>
+    </div>
+
+    <h3>Basic examples</h3>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file" id="exampleInputFile">
+        <p class="help-block">Example block-level help text here.</p>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Check me out
+        </label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+    <hr>
+
+    <h3>Inline form</h3>
+    <h5>First example</h5>
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="exampleInputName2">Name</label>
+        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail2">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+      </div>
+      <button type="submit" class="btn btn-default">Send invitation</button>
+    </form>
+
+    
+    <h5>Second example</h5>
+    <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputPassword3">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </form>
+    
+    <h5>Third example</h5>
+    <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+        <div class="input-group">
+          <div class="input-group-addon">$</div>
+          <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+          <div class="input-group-addon">.00</div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Transfer cash</button>
+    </form>
+
+
+    <h3>Mixed: mobile, tablet, and desktop</h3>
+    <p></p>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-lg-8">.col-xs-12 .col-sm-6 .col-lg-8</div>
+      <div class="col-xs-6 col-lg-4">.col-xs-6 .col-lg-4</div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+      <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+      <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+    </div>
+
+    <hr>
+
+    <h3>Column clearing</h3>
+    <p>
+      <a href="http://getbootstrap.com/css/#grid-responsive-resets">Clear floats</a> at specific breakpoints to prevent awkward wrapping with uneven content.</p>
+    <div class="row">
+      <div class="col-xs-6 col-sm-3">
+        .col-xs-6 .col-sm-3
+        <br> Resize your viewport or check it out on your phone for an example.
+      </div>
+      <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+
+      <!-- Add the extra clearfix for only the required viewport -->
+      <div class="clearfix visible-xs"></div>
+
+      <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+      <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+    </div>
+
+    <hr>
+
+    <h3>Offset, push, and pull resets</h3>
+    <p>Reset offsets, pushes, and pulls at specific breakpoints.</p>
+    <div class="row">
+      <div class="col-sm-5 col-md-6">.col-sm-5 .col-md-6</div>
+      <div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
+      <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
+    </div>
+
+    <hr>
+
+    <h3>Twelve columns</h3>
+    <p>Twelve columns.</p>
+    <div class="row">
+      <div class="col-sm-1 col-md-1">.col-sm-1 .col-md-1</div>
+      <div class="col-sm-1 col-md-1">.col-sm-1 .col-md-1</div>
+      <div class="col-sm-1 col-md-1">.col-sm-1 .col-md-1</div>
+      <div class="col-sm-1 col-md-1">.col-sm-1 .col-md-1</div>
+      <div class="col-sm-1 col-md-1">.col-sm-1 .col-md-1</div>
+      <div class="col-sm-1 col-md-1">.col-sm-1 .col-md-1</div>
+      <div class="col-sm-1 col-md-1">.col-sm-1 .col-md-1</div>
+      <div class="col-sm-1 col-md-1">.col-sm-1 .col-md-1</div>
+      <div class="col-sm-1 col-md-1">.col-sm-1 .col-md-1</div>
+      <div class="col-sm-1 col-md-1">.col-sm-1 .col-md-1</div>
+      <div class="col-sm-1 col-md-1">.col-sm-1 .col-md-1</div>
+      <div class="col-sm-1 col-md-1">.col-sm-1 .col-md-1</div>
+    </div>
+
+    <hr>
+
+    <h3>One column in a line and others.</h3>
+    <p>One column in a line and others.</p>
+    <div class="row">
+      <div class="col-sm-12 col-md-12">.col-sm-12 .col-md-12</div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 col-md-2">.col-sm-2 .col-md-2</div>
+      <div class="col-sm-10 col-md-10">.col-sm-10 .col-md-10</div>
+    </div>
+
+  </div>
+  <!-- /container -->
+
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+  <div id="Vidown_extension_alhnopeoagjmjfgcbnokcnagkecgdcdh" style="display: none;"></div>
+  <div id="vidown_float_panel_div" style="display: none;">
+    <a id="vidown_float_panel_download" title="用【维棠】下载视频">维棠下载</a>
+    <span id="vidown_float_panel_sep">|</span>
+    <input type="button" value=" " id="vidown_float_panel_close" title="关闭">
+  </div>
+</body>
+</html>
