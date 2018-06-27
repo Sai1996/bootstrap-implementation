@@ -26,10 +26,13 @@ $map: ( xs: $screen-xs-min, sm: $screen-sm-min, md: $screen-md-min, lg: $screen-
       .col-#{$size}-#{$i} {
         width: 100% * $i / 12;
         float: left;
-        position: relative;
+        position: relative; 
         min-height: 1px;
         padding-right: 15px;
         padding-left: 15px;
+      }
+      .col-#{$size}-offset-#{$i}{
+        margin-left: 100% * $i / 12;
       }
     }
   }
